@@ -20,7 +20,7 @@ public class Material {
     private int idMaterial;
     private String name;
     private String description;
-    byte[] image;
+    private String image;
 
     @OneToMany(mappedBy = "material")
     private List<ReservationM> reservationMS;
