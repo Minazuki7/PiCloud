@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class TwilioService {
-    @Value("AC1fa522d398fc2ec727cdeaa69a882d62")
+    @Value("SECRET")
     private String accountSid;
 
-    @Value("dde7b708720db698f3b0784f91f8e90b")
+    @Value("SECRET")
     private String authToken;
 
     @Value("+13342343615")
